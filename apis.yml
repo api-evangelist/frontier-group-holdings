@@ -23,6 +23,8 @@ description: >-
   handled through GDSs, NDC channels, and direct travel-agent agreements.
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/frontier-group-holdings-domain-security.yml
   - type: Website
     url: https://www.flyfrontier.com/
   - type: Investors
@@ -35,6 +37,8 @@ common:
     url: https://www.flyfrontier.com/travel/groups/
   - type: Help
     url: https://www.flyfrontier.com/help/
+  - url: https://news.flyfrontier.com/tagfeed/en-us/tags/news,national
+    type: Blog
 maintainers:
   - FN: API Evangelist
     url: https://apievangelist.com
